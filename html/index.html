@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js%22%3E"></script>
+        <link href="index.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body> 
+        <div id="container">
+    
+            <img id="menu" src="menu.png">
+            <div  id="test">.</div>
+            <img  id="pannunci" src="pulsante_annunci.png">
+            <img  id="pallert" src="pulsante_allert.png">
+            <img  id="annunci" src="annunci.png">
+            <img id="allert" src="allert.png">
+            <div id="scritta"><strong> </strong></div>
+            <h1 id="scritta1"><strong></strong></h1> 
+        <div id="container1">
+        <div id="annunci1">
+            <img  id="pesegui" src="pulsante_esegui.png">
+            <textarea name="text" onKeyDown="if(this.value.length==100 && event.keyCode!=8) return false;" id="scrittaa" placeholder="Write your announce here"></textarea> 
+        </div>
+        <div id="allert1">
+            <div  id="copertura">.</div>
+        <div id="cop">
+            <div  id="copertura2"><strong>HOURS</strong></div>
+            <div  id="copertura1"><strong>MINUTES</strong></div> 
+            <div  id="copertur2"><strong>HOURS</strong></div>
+            <div  id="copertur1"><strong>MINUTES</strong></div>
+        </div>
+            <img id="pesegui1" src="pulsante_eseguia.png">
+            <h1 id="cons">TIME</h1> <!--changechangeable-->
+            <input id="numero" type="text" class="numeroo"  min="1" max="60"  onKeyDown="if(this.value.length==2 && event.keyCode!=8) return false;" >
+        </div>
+        </div>
+        <script src="listener.js"></script>
+    </body>
+</html>
